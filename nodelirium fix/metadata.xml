@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <name>NoDelirium Fix</name>
+    <directory>nodelirium fix</directory>
+    <id>2926219587</id>
+    <description>The game tags certain bosses with &quot;nodelirium&quot; which is supposed to make sure that Delirium never transforms into them. In a normal playthrough, this works because you should always see a few bosses without the &quot;nodelirium&quot; tag (which is what seems to make this actually work). If you do a lot of playtesting like me then you may have gone immediately to Home and fought Dogma and The Beast. Then followed that up by going to The Void and fighting Delirium. In that case, Delirium can incorrectly tranform into Dogma or The Beast which causes Delirium to glitch out. This mod is fixing that edge case.
+
+This mod uses an allow list taken from Repentance's entities2.xml file. This will also filter all modded bosses.
+
+TL;DR You probably don't need this mod if you're just playing the game normally.</description>
+    <version>1.1</version>
+    <visibility>Public</visibility>
+    <tag id="Lua"/>
+    <tag id="Bosses"/>
+    <tag id="Tweaks"/>
+</metadata>
