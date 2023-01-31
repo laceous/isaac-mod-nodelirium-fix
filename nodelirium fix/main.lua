@@ -135,7 +135,7 @@ end
 function mod:onNewRoom()
   mod:clearDeliriumHashes()
   
-  for _, v in ipairs(Isaac.FindByType(EntityType.ENTITY_DELIRIUM, 0, 0, false, false)) do
+  for _, v in ipairs(Isaac.FindByType(EntityType.ENTITY_DELIRIUM, 0, -1, false, false)) do
     table.insert(mod.deliriumHashes, GetPtrHash(v))
   end
 end

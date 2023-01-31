@@ -8,7 +8,7 @@
 This mod uses an allow list taken from Repentance's entities2.xml file. This will also filter all modded bosses.
 
 TL;DR You probably don't need this mod if you're just playing the game normally.</description>
-    <version>1.1</version>
+    <version>1.2</version>
     <visibility>Public</visibility>
     <tag id="Lua"/>
     <tag id="Bosses"/>
